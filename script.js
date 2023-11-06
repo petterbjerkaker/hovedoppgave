@@ -1,0 +1,1 @@
+const slideshow = document.querySelector(".slideshow");
