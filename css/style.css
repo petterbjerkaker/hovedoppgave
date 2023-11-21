@@ -37,6 +37,17 @@
 	cursor:pointer;
 }
 
+.navigation__accordion-panel{
+	width:140px;
+	height: 200px;
+	padding:var(--padding);
+	background-color:var(--background);
+	display:none;
+	overflow:hidden;
+	border:2px solid var(--foreground);
+	
+}
+
 
 .header {
 	display:flex;
@@ -81,4 +92,13 @@
 	cursor: grab;
 	margin-left:16px;
 
+}
+
+
+.main-container{
+	width:1262px;
+	height:770px;
+	margin-left:135px;
+	margin-top:200px;
+	background-color:lightblue;
 }
