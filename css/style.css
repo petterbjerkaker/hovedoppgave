@@ -95,10 +95,129 @@
 }
 
 
-.main-container{
+.front-page__main-container{
+	display: flex;
+	justify-content: space-between;	
 	width:1262px;
-	height:770px;
+	height:600px;
 	margin-left:135px;
 	margin-top:200px;
-	background-color:lightblue;
+	background-color:var(--background);
+}
+
+.registration-container{
+	width:400px;
+	height:770px;
+	background-color:var(--background);
+	
+}
+
+.registration-header{
+	width:400px;
+	height:50px;
+	background-color:var(--background);
+}
+
+.registration-header-text{
+	font-size:var(--font-size-large);
+	font-weight: bold;
+}
+
+.new-website__registration{
+	width:200px;
+	height:50px;
+	color: var(--background);
+	background-color:var(--foreground);
+	border: 2px solid var(--foreground);
+	border-radius:8px;
+	cursor:pointer;
+}
+
+
+.new-website__registration:hover{
+	background:grey;
+	transition:2s ease-out 100ms;
+}
+
+.registration-button-text{
+	font-size:var(--font-size-base);
+}
+
+
+.contact-container{
+	width:400px;
+	height:770px;
+	background-color:var(--background);
+	margin-left:100px;
+	
+}
+
+.contact-header{
+	width:400px;
+	height:50px;
+	background-color:var(--background);
+}
+
+.contact-header-text{
+	font-size:var(--font-size-large);
+	font-weight: bold;
+}
+
+.new-website__contact{
+	width:200px;
+	height:50px;
+	color: var(--background);
+	background-color:var(--foreground);
+	border: 2px solid var(--foreground);
+	border-radius:8px;
+	cursor:pointer;
+}
+
+.new-website__contact:hover{
+	background:grey;
+	transition:2s ease-out 100ms;
+}
+
+.contact-button-text{
+	font-size:var(--font-size-base);
+}
+
+
+.information-container{
+	width:400px;
+	height:770px;
+	background-color:var(--background);
+	margin-left:100px;
+}
+
+
+.information-header{
+	width:400px;
+	height:50px;
+	background-color:var(--background);
+}
+
+.information-header-text{
+	font-size:var(--font-size-large);
+	font-weight: bold;
+}
+
+
+.new-website__information{
+	width:200px;
+	height:50px;
+	color: var(--background);
+	background-color:var(--foreground);
+	border: 2px solid var(--foreground);
+	border-radius:8px;
+	cursor:pointer;
+}
+
+.new-website__information:hover{
+	background:grey;
+	transition:2s ease-out 100ms;
+}
+
+.information-button-text{
+	font-size:var(--font-size-base);
 }
