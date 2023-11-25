@@ -64,12 +64,12 @@
 
 
 
-.slideshow {
+.slideshow-container {
 	display: flex;
 	position:relative;
 	justify-content: center;
 	align-items: center;
-	max-width: 1500px;
+	width: 1200px;
 	height:800px;
 	background:var(--background);
 	margin:10px;
@@ -81,11 +81,11 @@
 }
 
 
-.slideshow img {
+.slideshow-image1 {
 	position:absolute;
 	max-width:1300px;
 	height:600px;
-	width:calc(100% / 1);
+	width:1000px;
 	justify-content: center;
 	align-items: center;
 	object-fit: cover;
@@ -93,6 +93,72 @@
 	margin-left:16px;
 
 }
+
+.slideshow-image2 {
+	position:absolute;
+	max-width:1300px;
+	height:600px;
+	width:1000px;
+	justify-content: center;
+	align-items: center;
+	object-fit: cover;
+	cursor: grab;
+	margin-left:16px;
+
+}
+
+.slideshow-image3 {
+	position:absolute;
+	max-width:1300px;
+	height:600px;
+	width:1000px;
+	justify-content: center;
+	align-items: center;
+	object-fit: cover;
+	cursor: grab;
+	margin-left:16px;
+
+}
+
+
+.slideshow-image4 {
+	position:absolute;
+	max-width:1300px;
+	height:600px;
+	width:1000px;
+	justify-content: center;
+	align-items: center;
+	object-fit: cover;
+	cursor: grab;
+	margin-left:16px;
+
+}
+
+.slideshow-image5 {
+	position:absolute;
+	max-width:1300px;
+	height:600px;
+	width:1000px;
+	justify-content: center;
+	align-items: center;
+	object-fit: cover;
+	cursor: grab;
+	margin-left:16px;
+}
+
+.slideshow-image6 {
+	position:absolute;
+	max-width:1300px;
+	height:600px;
+	width:1000px;
+	justify-content: center;
+	align-items: center;
+	object-fit: cover;
+	cursor: grab;
+	margin-left:16px;
+
+}
+
 
 
 .front-page__main-container{
@@ -131,6 +197,7 @@
 	border: 2px solid var(--foreground);
 	border-radius:8px;
 	cursor:pointer;
+	transition:1s ease-out 100ms;
 }
 
 
@@ -171,6 +238,7 @@
 	border: 2px solid var(--foreground);
 	border-radius:8px;
 	cursor:pointer;
+	transition:1s ease-out 100ms;
 }
 
 .new-website__contact:hover{
@@ -211,6 +279,7 @@
 	border: 2px solid var(--foreground);
 	border-radius:8px;
 	cursor:pointer;
+	transition:1s ease-out 100ms;
 }
 
 .new-website__information:hover{
