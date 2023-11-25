@@ -1,9 +1,36 @@
 
-const newWebpageButton = document.querySelector(".new-website__registration");
-newWebpageButton.addEventListener("click", ()=>{
+const newWebpageRegistration = document.querySelector(".new-website__registration");
+newWebpageRegistration.addEventListener("click", ()=>{
 	window.open(
-		"https://www.melhusil.no/next/p/18690/kontakt-oss",
+		"registration-page.html",
 		"RegistrationMelhusMarathon2024",
 		
 	);
 });
+
+
+const newWebpageContact = document.querySelector(".new-website__contact");
+newWebpageContact.addEventListener("click", ()=>{
+	window.open(
+		"contact-page.html",
+		"ContactMelhusMarathon2024",
+		
+	);
+});
+
+
+const newWebpageInformation = document.querySelector(".new-website__information");
+newWebpageInformation.addEventListener("click", ()=>{
+	window.open(
+		"information-page.html",
+		"InformationMelhusMarathon2024",
+		
+	);
+});
+
+
+
+
+
+
+
