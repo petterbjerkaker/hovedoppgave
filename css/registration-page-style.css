@@ -1,0 +1,204 @@
+.header {
+	display:flex;
+	width:100%;
+	font-size: var(--font-size-large);
+	height:auto;
+	background:var(--background);
+	justify-content: space-between;
+	align-items: center;
+	padding:var(--padding);
+	padding-right:120px;
+	margin-top:50px;
+}
+
+.title-container{
+	width:100%;
+	height:140px;
+	background: var(--background);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+}
+
+.registration-image-container{
+	width:100%;
+	height: 600px;
+	background-color: var(--background);
+	display: flex;
+	justify-content: center;
+}
+
+.registration-image{
+	width:800px;
+	height: 450px;
+	border-radius:6px;
+}
+
+.registration-container{
+	width:100%;
+	height: 850px;
+	background: var(--background);
+	display: flex;
+	padding:10px;
+	
+}
+
+
+.form-container{
+	display: flex;
+	flex-direction: column;
+	width:660px;
+	height:500px;
+	background:var(--background);
+	margin-left:80px;
+	
+}
+
+
+.form-name{
+	width:400px;
+	height:30px;
+	font-size: var(--font-size-large);
+	margin-bottom: 10px;
+}
+
+#form-name{
+	width:400px;
+	height:30px;
+	font-size: var(--font-size-base);
+	border-radius:6px;
+	padding:10px;
+	margin-bottom:40px;
+}
+
+.form-number{
+	width:400px;
+	height:30px;
+	font-size: var(--font-size-large);
+	margin-bottom: 10px;
+}
+
+#form-number{
+	width:400px;
+	height:30px;
+	font-size: var(--font-size-base);
+	border-radius:6px;
+	padding:10px;
+	margin-bottom:35px;
+}
+
+
+.form-email{
+	width:400px;
+	height:30px;
+	font-size: var(--font-size-large);
+	margin-bottom: 10px;
+}
+
+
+#form-email{
+	width:400px;
+	height:30px;
+	font-size: var(--font-size-base);
+	border-radius:6px;
+	padding:10px;
+	margin-bottom:35px;
+}
+
+.form-birthday{
+	width:400px;
+	height:30px;
+	font-size: var(--font-size-large);
+	margin-bottom: 10px;
+}
+
+
+#form-birthday{
+	width:400px;
+	height:30px;
+	font-size: var(--font-size-base);
+	border-radius:6px;
+	padding:10px;
+	margin-bottom:35px;
+}
+
+.radio-container{
+	display: flex;
+	flex-direction: column;
+	width:660px;
+	height:730px;
+	background: var(--background);
+	
+}
+
+
+.radio-form-title{
+	width:100%;
+	height:30px;
+	font-size: var(--font-size-large);
+	background: var(--background);
+	padding-bottom:40px;
+}
+
+
+.marathon-title{
+	width:400px;
+	height:30px;
+	font-size: var(--font-size-base);
+}
+
+#marathon{
+	width:17px;
+	height:17px;
+	font-size: var(--font-size-base);
+	padding:10px;
+	margin-bottom:70px;
+}
+
+.half-marathon-title{
+	width:400px;
+	height:30px;
+	font-size: var(--font-size-base);
+}
+
+#half-marathon{
+	width:17px;
+	height:17px;
+	font-size: var(--font-size-large);
+	padding:10px;
+	margin-bottom:70px;
+}
+
+
+.melhus-mile-title{
+	width:400px;
+	height:30px;
+	font-size: var(--font-size-base);
+}
+
+#melhus-mile{
+	width:17px;
+	height:17px;
+	font-size: var(--font-size-base);
+	margin-bottom:110px;
+	
+}
+
+
+.submit-button{
+	width:120px;
+	height:35px;
+	font-size: var(--font-size-base);
+	color: var(--background);
+	background-color:var(--foreground);
+	border: 2px solid var(--foreground);
+	border-radius:8px;
+	cursor:pointer;
+	transition:1s ease-out 100ms;
+}
+
+.submit-button:hover{
+	background:grey;
+	transition:1s ease-out 100ms;
+}
