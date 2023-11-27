@@ -34,3 +34,5 @@ function showRegistrationToast(){
 	setTimeout(function(){
 		toastContent.className = toastContent.className.replace("show", "");}, 6000);
 	}
+
+	
