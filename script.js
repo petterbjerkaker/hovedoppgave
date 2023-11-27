@@ -28,9 +28,9 @@ newWebpageInformation.addEventListener("click", ()=>{
 	);
 });
 
-
-
-
-
-
-
+function showRegistrationToast(){
+	const toastContent = document.querySelector("#toast-content");
+	toastContent.className = "show";
+	setTimeout(function(){
+		toastContent.className = toastContent.className.replace("show", "");}, 6000);
+	}
