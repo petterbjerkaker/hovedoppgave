@@ -29,10 +29,17 @@ newWebpageInformation.addEventListener("click", ()=>{
 });
 
 function showRegistrationToast(){
-	const toastContent = document.querySelector("#toast-content");
-	toastContent.className = "show";
+	const registrationToastContent = document.querySelector("#toast-content");
+	registrationToastContent.className = "show";
 	setTimeout(function(){
-		toastContent.className = toastContent.className.replace("show", "");}, 6000);
+		registrationToastContent.className = registrationToastContent.className.replace("show", "");}, 6000);
 	}
 
-	
+
+
+function showContactToast(){
+	const contactToastContent = document.querySelector("#contact-toast-content");
+	contactToastContent.className = "show";
+	setTimeout(function(){
+		contactToastContent.className = contactToastContent.className.replace("show", "");}, 6000);
+}
