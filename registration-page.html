@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/registration-page-style.css">
 	<link rel="stylesheet" href="css/variables.css">
-	<script src="script.js" defer></script>
+	<script src="project.js" defer></script>
 </head>
 <body>
 	<div class="header">
@@ -44,7 +44,7 @@
 			<label class="form-birthday" for="birthday">
 				<b>Date of birth:</b>
 			</label>
-			<input type="date" name="birthday" id="form-birthday">
+			<input type="date" name="birthday" id="form-birthday" required>
 		</div>
 		<div class="radio-container">
 			<div class="radio-form-title">
@@ -68,7 +68,7 @@
 			</form>
 			<button id="submit-registration-button" onclick="showRegistrationToast()">Submit</button>
 			<div id="toast-content">
-				<p>Success! A confirmation has been sent to your email </p>
+				<p>Success! A confirmation has been sent to your email. </p>
 			</div>
 		</div>
 	</div>

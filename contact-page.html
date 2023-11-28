@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/variables.css">
 	<link rel="stylesheet" href="css/contact-page-style.css">
-	<script src="script.js" defer></script>
+	<script src="project.js" defer></script>
 </head>
 <body>
 	
@@ -44,9 +44,10 @@
 			</label>
 			<textarea cols="30" rows="10" maxlength="1000" placeholder="Enter your message here"></textarea>
 			<div class="contact-button-container">
-				<button class="contact-button">
-					Submit
-				</button>
+				<button id="contact-button" onclick="showContactToast()">Submit</button>
+				<div id="contact-toast-content">
+					<p>Success! Your message has been sent.</p>
+				</div>
 			</div>
 		</div>
 
