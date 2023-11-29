@@ -68,10 +68,12 @@
 .slideshow__control-button{
 	background: var(--background);
 	padding:0.2rem;
-	width:70px;
+	width:35px;
+	height: 40px;
 	cursor: pointer;
 	font-family: var(--font-size-base);
-	border-radius:6px;
+	border:2px solid var(--foreground);
+	border-radius:50%;
 }
 
 .slideshow__control-button:hover{
