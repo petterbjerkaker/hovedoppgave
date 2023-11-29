@@ -1,14 +1,14 @@
 .header{
-		display:flex;
-		width:100%;
-		font-size: var(--font-size-large);
-		height:auto;
-		background:var(--background);
-		justify-content: space-between;
-		align-items: center;
-		padding:var(--padding);
-		padding-right:120px;
-		margin-top:50px;
+	display:flex;
+	width:100%;
+	font-size: var(--font-size-large);
+	height:auto;
+	background:var(--background);
+	justify-content: space-between;
+	align-items: center;
+	padding:var(--padding);
+	padding-right:160px;
+	margin-top:50px;
 }
 
 .title-container{
@@ -25,10 +25,11 @@
 
 .contact-form-container{
 	width:100%;
-	height: 850px;
+	height: 600px;
 	background-color:var(--background);
 	display: flex;
 	padding:10px;
+	border:2px solid black;
 }
 
 .contact-form{
@@ -118,7 +119,7 @@ textarea:focus{
 	justify-content: center;
 }
 
-.contact-button{
+#contact-button{
 	width:120px;
 	height:35px;
 	font-size: var(--font-size-base);
@@ -130,7 +131,7 @@ textarea:focus{
 	transition:1s ease-out 100ms;
 }
 
-.contact-button:hover{
+#contact-button:hover{
 	background:grey;
 	transition:1s ease-out 100ms;
 }
@@ -145,14 +146,55 @@ textarea:focus{
 .contact-image-container{
 	display: flex;
 	width:660px;
-	height:730px;
+	height:500px;
 	background: var(--background);
 	margin-left:40px;
 }
 
 .contact-image{
 	width:95%;
-	height:70%;
+	height:450px;
 	border-radius:6px;
 }
 
+#contact-toast-content{
+	visibility: hidden;
+	min-width: 250px;
+	margin-left: -125px;
+	background-color: lightgreen;
+	color: var(--foreground);
+	text-align: center;
+	border-radius: 6px;
+	padding: 16px;
+	position: fixed;
+	z-index: 1;
+	left: 50%;
+	bottom: 30px;
+	font-size: var(--font-size-base);
+}
+
+#contact-toast-content.show{
+	visibility: visible;
+	-webkit-animation: fadein 0.5s, fadeout 0.5s 6s;
+	animation: fadein 0.5s, fadeout 0.5s 6s;
+}
+
+@-webkit-keyframes fadein {
+	from {bottom: 0; opacity: 0;} 
+	to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+	from {bottom: 0; opacity: 0;}
+	to {bottom: 30px; opacity: 1;}
+ }
+
+ @-webkit-keyframes fadeout {
+	from {bottom: 30px; opacity: 1;} 
+	to {bottom: 0; opacity: 0;}
+ }
+
+ @keyframes fadeout {
+	from {bottom: 30px; opacity: 1;}
+	to {bottom: 0; opacity: 0;}
+ }
