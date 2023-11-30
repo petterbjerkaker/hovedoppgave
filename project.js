@@ -1,5 +1,5 @@
 
-const newWebpageRegistration = document.querySelector(".new-website__registration");
+/*const newWebpageRegistration = document.querySelector(".new-website__registration");
 newWebpageRegistration.addEventListener("click", ()=>{
 	window.open(
 		"registration-page.html",
@@ -27,6 +27,8 @@ newWebpageInformation.addEventListener("click", ()=>{
 		
 	);
 });
+
+
 
 function showRegistrationToast(){
 	const registrationToastContent = document.querySelector("#toast-content");
@@ -101,3 +103,39 @@ const changeSlide = (event) =>{
 controls.forEach(button =>{
 	button.addEventListener("click", changeSlide);
 })
+*/
+
+const contactButton = document.querySelector("#contact-button");
+const errorMessage = document.querySelector(".error-message");
+const contactInputs = document.querySelectorAll(".contact-input");
+const contactToastContent = document.querySelector("#contact-toast-content");
+
+contactButton.addEventListener("click", ()=>{
+	const isInputEmpty = Array.from(contactInputs).some(
+		(input)=>input.value.trim()===""
+	);
+	if (isInputEmpty){
+		errorMessage.style.display = "block";
+	}else{
+		errorMessage.style.display = "none";
+		showContactToast();
+	}
+});
+
+
+
+//goal: error message goes away when inputs are written on
+Array.from(contactInputs).forEach((contactInput) =>{
+	contactInput.addEventListener("input", ()=>{
+		errorMessage.style.display = "none";
+	});
+});
+
+
+//success toast is showed when every input is covered and the submission is successful
+function showContactToast(){
+	contactToastContent.classList.add("show");
+	setTimeout(function(){
+		contactToastContent.classList.remove("show");
+	}, 6000);
+}
