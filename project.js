@@ -123,12 +123,11 @@ contactButton.addEventListener("click", ()=>{
 });
 
 
-
 //goal: error message goes away when inputs are written on
 Array.from(contactInputs).forEach((contactInput) =>{
 	contactInput.addEventListener("input", ()=>{
 		errorMessage.style.display = "none";
-	});
+	})
 });
 
 
