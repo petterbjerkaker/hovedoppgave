@@ -113,16 +113,12 @@ contactButton.addEventListener("click", ()=>{
 	}
 });
 
-
-//goal: error message goes away when inputs are written on
 Array.from(contactInputs).forEach((contactInput) =>{
 	contactInput.addEventListener("input", ()=>{
 		errorMessage.style.display = "none";
 	})
 });
 
-
-//success toast is showed when every input is covered and the submission is successful
 function showContactToast(){
 	contactToastContent.classList.add("show");
 	setTimeout(function(){
