@@ -39,15 +39,6 @@ function showRegistrationToast(){
 
 
 
-function showContactToast(){
-	const contactToastContent = document.querySelector("#contact-toast-content");
-	contactToastContent.className = "show";
-	setTimeout(function(){
-		contactToastContent.className = contactToastContent.className.replace("show", "");}, 6000);
-}
-
-
-
 const slideshow = document.querySelector(".slideshow");
 const slides = slideshow.querySelectorAll(".slideshow__slide");
 const controls = slideshow.querySelectorAll(".slideshow__control-button");
@@ -138,3 +129,4 @@ function showContactToast(){
 		contactToastContent.classList.remove("show");
 	}, 6000);
 }
+
