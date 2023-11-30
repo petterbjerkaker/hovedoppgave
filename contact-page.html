@@ -30,26 +30,27 @@
 			<label class="contact-name" for="name">
 				<b>Name:</b>
 			</label>
-			<input type="text" placeholder="Enter your name" class="contact-input" name="name" id="contact-name" required>
+			<input type="text" placeholder="Enter your name" class="contact-input" name="contact-input" id="contact-name" required>
 			<label class="contact-number" for="number">
 				<b>Phone number:</b>
 			</label>
-			<input type="tel" placeholder="Enter your phone number" class="contact-input" name="text-number" id="contact-number" required>
+			<input type="tel" placeholder="Enter your phone number" class="contact-input" name="contact-input" id="contact-number" required>
 			<label class="contact-email" for="email">
 				<b>Email:</b>
 			</label>
-			<input type="email" placeholder="Enter your email address" class="contact-input" name="email" id="contact-email" required>
+			<input type="email" placeholder="Enter your email address" class="contact-input" name="contact-input" id="contact-email" required>
 			<label class="contact-message" for="message">
 				<b>Message:</b>
 			</label>
-			<textarea cols="30" rows="10" maxlength="1000" placeholder="Enter your message here" class="contact-input"></textarea>
+			<textarea cols="30" rows="10" maxlength="1000" placeholder="Enter your message here" class="contact-input" name="contact-input"></textarea>
+			<p class="error-message">Please complete the form before submitting</p>
 			<div class="contact-button-container">
-				<button id="contact-button" onclick="showContactToast()">Submit</button>
+				<button id="contact-button">Submit</button>
 				<div id="contact-toast-content">
 					<p>Success! Your message has been sent.</p>
 				</div>
 			</div>
-			<p class="error-message">Please fill every section of the form</p>
+			
 		</div>
 
 		<div class="contact-image-container">
