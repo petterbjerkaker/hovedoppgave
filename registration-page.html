@@ -32,43 +32,44 @@
 			<label class="form-name" for="name">
 				<b>Name:</b>
 			</label>
-			<input type="text" placeholder="Enter your name" name="name" id="form-name" required>
+			<input type="text" placeholder="Enter your name" class="registration-input" name="name" id="form-name" required>
 			<label class="form-number" for="number">
 				<b>Phone number:</b>
 			</label>
-			<input type="text" placeholder="Enter your phone number" name="text-number" id="form-number" required>
+			<input type="text" placeholder="Enter your phone number" class="registration-input" name="text-number" id="form-number" required>
 			<label class="form-email" for="email">
 				<b>Email:</b>
 			</label>
-			<input type="text" placeholder="Enter your email address" name="email" id="form-email" required>
+			<input type="text" placeholder="Enter your email address" class="registration-input" name="email" id="form-email" required>
 			<label class="form-birthday" for="birthday">
 				<b>Date of birth:</b>
 			</label>
-			<input type="date" name="birthday" id="form-birthday" required>
+			<input type="date" class="registration-input" name="birthday" id="form-birthday" required>
 		</div>
 		<div class="radio-container">
 			<div class="radio-form-title">
 				<b>What distance are you racing?</b>
 			</div>
 			<form>
-				<input type="radio" id="marathon" name="distance" value="marathon">
+				<input type="radio" id="marathon" class="radio-input" name="distance" value="marathon">
 				<label for="marathon">
 					<span class="marathon-title"><b>Marathon (42 kilometres)</b></span>
 				</label>
 				<br>
-				<input type="radio" id="half-marathon" name="distance" value="half-marathon">
+				<input type="radio" id="half-marathon" class="radio-input" name="distance" value="half-marathon">
 				<label for="half-marathon">
 					<span class="half-marathon-title"><b>Half-marathon (21 kilometres)</b></span>
 				</label>
 				<br>
-				<input type="radio" id="melhus-mile" name="distance" value="melhus-mile">
+				<input type="radio" id="melhus-mile" class="radio-input" name="distance" value="melhus-mile">
 				<label for="melhus-mile">
 					<span class="melhus-mile-title"><b>The Melhus Mile (10 kilometres)</b></span>
 				</label>
+				<p class="error-message">Please complete the form before submitting</p>
 			</form>
-			<button id="submit-registration-button" onclick="showRegistrationToast()">Submit</button>
-			<div id="toast-content">
-				<p>Success! A confirmation has been sent to your email. </p>
+			<button id="submit-registration-button">Submit</button>
+			<div id="registration-toast-content">
+				<p>Success! A confirmation has been sent to your email.</p>
 			</div>
 		</div>
 	</div>
