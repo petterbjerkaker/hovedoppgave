@@ -1,0 +1,37 @@
+/*change class names!!
+*/
+
+.filter-buttons{
+	display: flex;
+	flex-direction: row;
+	width:100%;
+	height:auto;
+	padding:20px;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.filter-button{
+	padding:5px;
+	border-radius:6px;
+}
+
+.filter-button:hover{
+	cursor: pointer;
+}
+
+.list-items{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width:100%;
+	height:auto;
+	background-color: lightblue;
+	padding: 20px;
+}
+
+.list-item{
+	width:33%;
+	padding:20px;
+}
+
