@@ -27,6 +27,14 @@ newWebpageInformation.addEventListener("click", ()=>{
 	);
 });
 
+const newWebpageInspiration = document.querySelector(".new-website__inspiration");
+newWebpageInspiration.addEventListener("click", ()=>{
+	window.open(
+		"inspiration-page.html",
+		"InspirationMelhusMarathon2024",
+	);
+});
+
 
 const slideshow = document.querySelector(".slideshow");
 const slides = slideshow.querySelectorAll(".slideshow__slide");
