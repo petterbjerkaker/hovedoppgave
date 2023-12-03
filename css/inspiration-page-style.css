@@ -1,6 +1,29 @@
 /*change class names!!
 */
 
+.header{
+	display:flex;
+	width:100%;
+	font-size: var(--font-size-large);
+	height:auto;
+	background:var(--background);
+	justify-content: space-between;
+	align-items: center;
+	padding:var(--padding);
+	padding-right:160px;
+	margin-top:50px;
+}
+
+.title-container{
+	width:100%;
+	height:140px;
+	background: var(--background);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+}
+
 .filter-buttons{
 	display: flex;
 	flex-direction: row;
@@ -9,16 +32,24 @@
 	padding:20px;
 	justify-content: space-evenly;
 	align-items: center;
+	padding-bottom:60px;
 }
 
 .filter-button{
-	padding:5px;
-	border-radius:6px;
+	width:160px;
+	height:40px;
+	color: var(--background);
+	background-color:var(--foreground);
+	border: 2px solid var(--foreground);
 	font-size: var(--font-size-base);
+	border-radius:8px;
+	cursor: pointer;
+	transition:1s ease-out 100ms;
 }
 
 .filter-button:hover{
-	cursor: pointer;
+	background:grey;
+	transition:1s ease-out 100ms;
 	
 }
 
@@ -30,6 +61,7 @@
 	height:auto;
 	background-color: var(--background);
 	padding: 20px;
+	margin-left:200px;
 }
 
 .list-item{
@@ -39,8 +71,11 @@
 
 .image-title{
 	font-size: var(--font-size-large);
+	margin-top:20px;
+	margin-bottom:10px;
 }
 
 .inspiration-image{
 	border-radius:6px;
 }
+
