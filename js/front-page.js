@@ -1,3 +1,7 @@
+
+//Function assigned to buttons. Function redirects user to a new webpage.
+//A seperate webpage is assigned each button. In total four different webpages.
+
 const newWebpageRegistration = document.querySelector(".new-website__registration");
 newWebpageRegistration.addEventListener("click", ()=>{
 	window.open(
@@ -35,6 +39,9 @@ newWebpageInspiration.addEventListener("click", ()=>{
 	);
 });
 
+//----------------------------------------------------------------------------------------------
+
+//Functions for front-page slideshow. Previous and next icons are retrieved from figma.
 
 const slideshow = document.querySelector(".slideshow");
 const slides = slideshow.querySelectorAll(".slideshow__slide");
@@ -92,6 +99,9 @@ controls.forEach(button =>{
 	button.addEventListener("click", changeSlide);
 })
 
+//Function assigned left and right arrowkeys. Right arrowkey brings next slide,
+//left arrowkey brings previous slide.
+
 document.addEventListener("keydown", (event) => {
 	if (event.key === "ArrowLeft"){
 		goToPreviousSlide();
@@ -99,3 +109,5 @@ document.addEventListener("keydown", (event) => {
 		goToNextSlide();
 	}
 });
+
+//----------------------------------------------------------------------------------------------
