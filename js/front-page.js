@@ -91,3 +91,11 @@ const changeSlide = (event) =>{
 controls.forEach(button =>{
 	button.addEventListener("click", changeSlide);
 })
+
+document.addEventListener("keydown", (event) => {
+	if (event.key === "ArrowLeft"){
+		goToPreviousSlide();
+	}else if (event.key === "ArrowRight"){
+		goToNextSlide();
+	}
+});
