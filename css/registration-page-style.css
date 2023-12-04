@@ -23,7 +23,7 @@
 
 .registration-image-container{
 	width:100%;
-	height: 600px;
+	height: 700px;
 	background-color: var(--background);
 	display: flex;
 	justify-content: center;
@@ -31,18 +31,22 @@
 
 .registration-image{
 	width:800px;
-	height: 450px;
+	height: 500px;
 	border-radius:6px;
+	padding-top:50px;
 }
 
 .registration-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 	width:100%;
 	height: 450px;
 	background: var(--background);
-	display: flex;
 	padding:10px;
-	justify-content: center;
-	align-items: center;
+	padding-bottom:20px;
+	
 }
 
 
@@ -53,6 +57,7 @@
 	height:400px;
 	background:var(--background);
 	margin-left:80px;
+	
 }
 
 
@@ -129,6 +134,8 @@
 	width:660px;
 	height:400px;
 	background: var(--background);
+	margin-left:80px;
+	padding-top:20px;
 }
 
 
