@@ -1,6 +1,8 @@
 
-/*Function assigned to buttons. Function redirects user to a new webpage.
-A seperate webpage is assigned each button. In total four different webpages.*/
+/*Function assigned to buttons within "main-container". 
+Function redirects user to a new webpage.
+A seperate webpage is assigned each button. 
+In total four different webpages to explore.*/
 
 const newWebpageRegistration = document.querySelector(".new-website__registration");
 newWebpageRegistration.addEventListener("click", ()=>{
@@ -41,7 +43,7 @@ newWebpageInspiration.addEventListener("click", ()=>{
 
 
 
-/*Functions for front-page slideshow. Previous and next icons are retrieved from figma.*/
+/*Functions for front-page slideshow.*/
 
 const slideshow = document.querySelector(".slideshow");
 const slides = slideshow.querySelectorAll(".slideshow__slide");
@@ -81,6 +83,9 @@ const goToNextSlide = () => {
 	slides[index].classList.add("slideshow__slide--visible");
 };
 
+/*By clicking button assigned to const controls (".slideshow__control-button"),
+the slideshow will change slide. Dependent on whether button assigned to previous or
+next slide is clicked.*/ 
 
 const changeSlide = (event) =>{
 	const button = event.currentTarget;
@@ -93,7 +98,7 @@ const changeSlide = (event) =>{
 		goToNextSlide();
 	}
 }
-
+ 
 
 controls.forEach(button =>{
 	button.addEventListener("click", changeSlide);
