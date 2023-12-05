@@ -337,10 +337,10 @@
 	.form-container{
 		display: flex;
 		flex-direction: column;
-		width:660px;
+		width: 500px;
 		height:400px;
 		background:var(--background);
-		margin-left:200px;
+		margin-left:10px;
 		
 	}
 	
@@ -415,10 +415,10 @@
 	.radio-container{
 		display: flex;
 		flex-direction: column;
-		width:660px;
+		width:500px;
 		height:600px;
 		background: var(--background);
-		margin-left:200px;
+		margin-left:10px;
 		padding-top:20px;
 	}
 	
@@ -507,7 +507,7 @@
 		padding: 16px;
 		position: fixed;
 		z-index: 1;
-		left: 25%;
+		left: 30%;
 		bottom: 30px;
 		font-size: var(--font-size-base);
 	}
