@@ -137,3 +137,180 @@
 	background: var(--background);
 	border-radius: 6px;
 }
+
+
+@media screen and (max-width:600px) {
+	.header {
+		display:flex;
+		flex-direction:row;
+		width:100vw;
+		font-size: var(--font-size-base);
+		height:auto;
+		background:var(--background);
+		justify-content:space-between;
+		align-items: center;
+		padding:var(--padding);
+		padding-right:15%;
+		
+	}
+
+	.header-image-1 {
+		width:230px;
+		height:100px;
+	}
+
+	
+	.header-image-2 {
+		width:120px;
+		height:50px;
+		padding-left:20px;
+	}
+
+	.title-container{
+		width:100vw;
+		height:140px;
+		background: var(--background);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;
+	}
+	
+	.general-information-container{
+		width:500px;
+		height:300px;
+		display: flex;
+		justify-content: center;
+		padding:5px;
+		margin-left:7%;
+		background-color: var(--background);
+	
+	}
+	
+	.general-information{
+		font-size: var(--font-size-base);
+		line-height: var(--font-leading-base);
+	}
+	
+	.marathon-container{
+		width:500px;
+		height: 1000px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding:5px;
+		margin-left:7%;
+		background-color: var(--background);
+	}
+	
+	.marathon-title{
+		width:100vw;
+		height:140px;
+		background: var(--background);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;
+		padding-bottom:40px;
+	}
+	
+	.marathon-text{
+		width:100%;
+		height:750px;
+		font-size: var(--font-size-base);
+		line-height: var(--font-leading-base);
+		background:var(--background);
+	}
+	
+	.marathon-image{
+		width:90%;
+		height:750px;
+		margin-left:30px;
+		background: var(--background);
+		border-radius:6px;
+		padding-top:20px;
+		padding-bottom:40px;
+	}
+	
+	.half-marathon-container{
+		width:500px;
+		height: 1000px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding:5px;
+		margin-left:7%;
+		background-color: var(--background);
+	}
+	
+	.half-marathon-title{
+		width:100vw;
+		height:140px;
+		background: var(--background);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;
+		padding-top:20px;
+		padding-bottom:20px;
+	}
+	
+	.half-marathon-text{
+		width:100%;
+		height:750px;
+		font-size: var(--font-size-base);
+		line-height: var(--font-leading-base);
+		background:var(--background);
+	}
+	
+	.half-marathon-image{
+		width:90%;
+		height:750px;
+		margin-left:30px;
+		background: var(--background);
+		border-radius:6px;
+		padding-top:20px;
+		padding-bottom:40px;
+	}
+	
+	.melhus-mile-container{
+		width:500px;
+		height: 1000px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding:5px;
+		margin-left:7%;
+		background-color: var(--background);
+	}
+	
+	.melhus-mile-title{
+		width:100vw;
+		height:100px;
+		background: var(--background);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;
+	}
+	
+	.melhus-mile-text{
+		width:100%;
+		height:750px;
+		font-size: var(--font-size-base);
+		line-height: var(--font-leading-base);
+		background:var(--background);
+	}
+	
+	.melhus-mile-image{
+		width:90%;
+		height:750px;
+		margin-left:30px;
+		background: var(--background);
+		border-radius:6px;
+		padding-top:20px;
+		padding-bottom:40px;
+	}
+	
+	
+}
