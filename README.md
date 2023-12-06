@@ -50,3 +50,4 @@ Here, the filter-function has been applied. The user is exposed to all races and
 or 10-kilometres, to filter the list to show a specific distance, rather than every type of race. 
 Each distance has an assigned button. The button named all distances functions as a reset-button, or clear-button, if clicked when displaying a specific race distance. 
 The all distances-button displays all races, as it is displayed when the user first encounters the page without having clicked on anything specific. 
+All images are clickable, and will redirect in a new tab the user to find more information about the specific race targeted. 
