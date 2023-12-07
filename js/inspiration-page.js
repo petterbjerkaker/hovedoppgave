@@ -1,4 +1,3 @@
-//change class names!!
 
 /*Filtering for inspiration-page */
 const filterButtons = document.querySelectorAll(".filter-button");
