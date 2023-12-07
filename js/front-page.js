@@ -1,48 +1,4 @@
 
-/*Function assigned to buttons within "main-container". 
-Function redirects user to a new webpage.
-A seperate webpage is assigned each button. 
-In total four different webpages to explore.*/
-
-const newWebpageRegistration = document.querySelector(".new-website__registration");
-newWebpageRegistration.addEventListener("click", ()=>{
-	window.open(
-		"registration-page.html",
-		"RegistrationMelhusMarathon2024",
-		
-	);
-});
-
-
-const newWebpageContact = document.querySelector(".new-website__contact");
-newWebpageContact.addEventListener("click", ()=>{
-	window.open(
-		"contact-page.html",
-		"ContactMelhusMarathon2024",
-		
-	);
-});
-
-
-const newWebpageInformation = document.querySelector(".new-website__information");
-newWebpageInformation.addEventListener("click", ()=>{
-	window.open(
-		"information-page.html",
-		"InformationMelhusMarathon2024",
-		
-	);
-});
-
-const newWebpageInspiration = document.querySelector(".new-website__inspiration");
-newWebpageInspiration.addEventListener("click", ()=>{
-	window.open(
-		"inspiration-page.html",
-		"InspirationMelhusMarathon2024",
-	);
-});
-
-
-
 /*Functions for front-page slideshow.*/
 
 const slideshow = document.querySelector(".slideshow");
@@ -114,5 +70,49 @@ document.addEventListener("keydown", (event) => {
 	}else if (event.key === "ArrowRight"){
 		goToNextSlide();
 	}
+});
+
+
+
+/*Function assigned to buttons within "main-container". 
+Function redirects user to a new webpage in a new tab.
+A seperate webpage is assigned each button. 
+In total four different webpages to explore.*/
+
+const newWebpageRegistration = document.querySelector(".new-website__registration");
+newWebpageRegistration.addEventListener("click", ()=>{
+	window.open(
+		"registration-page.html",
+		"RegistrationMelhusMarathon2024",
+		
+	);
+});
+
+
+const newWebpageContact = document.querySelector(".new-website__contact");
+newWebpageContact.addEventListener("click", ()=>{
+	window.open(
+		"contact-page.html",
+		"ContactMelhusMarathon2024",
+		
+	);
+});
+
+
+const newWebpageInformation = document.querySelector(".new-website__information");
+newWebpageInformation.addEventListener("click", ()=>{
+	window.open(
+		"information-page.html",
+		"InformationMelhusMarathon2024",
+		
+	);
+});
+
+const newWebpageInspiration = document.querySelector(".new-website__inspiration");
+newWebpageInspiration.addEventListener("click", ()=>{
+	window.open(
+		"inspiration-page.html",
+		"InspirationMelhusMarathon2024",
+	);
 });
 
