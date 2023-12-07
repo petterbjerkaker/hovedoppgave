@@ -9,7 +9,7 @@ of such great proportion. Having been able to work on a project originating from
 
 ## Content of main-project
 The content of the main project consists of five webpages in total. The front-page, the registration-page, the contact-page, 
-the information-page, and the inspiration-page. 
+the information-page, and the inspiration-page. All webpages have a device breakpoint at maximum width 600px, meant for the mobile device. 
 
 ### Content of front-page
 Functioning as a focal point in user experience and the design of the front-page, the initial view is a top image and the header. The Melhus IL-logo at the left of the header, 
