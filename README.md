@@ -15,7 +15,7 @@ the information-page, and the inspiration-page. All webpages have a device break
 Functioning as a focal point in user experience and the design of the front-page, the initial view is a top image and the header. The Melhus IL-logo at the left of the header, 
 is clickable and will redirect the user to the front-page. The Nike-logo is a fictional sponsor, which redirects the user to Nike's running division webpage. 
 The header is identical for each webpage.
-The front-page consists of a minimal amount of text and information, as the front-page is meant to ignite the user's interest, and not be exposed to a overwhelming amount
+The front-page consists of a minimal amount of text and information, as the front-page is meant to ignite the user's interest, and not to be exposed to an overwhelming amount
 of information from the start. The user then has the option to choose and select more information later in the front-page. 
 Another reason for the lack of text is that the user should be able to navigate swiftly when encountering a front-page, and then instead be able to have alternatives 
 as to what the user wants to encounter next. 
