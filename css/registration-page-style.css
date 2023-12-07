@@ -255,7 +255,7 @@
  }
 
  .error-message{
-	flex-basis: 20%;
+	width:400px;
 	font-size:var(--font-size-base);
 	text-align: center;
 	color: var(--foreground);
